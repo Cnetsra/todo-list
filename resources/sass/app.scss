@@ -1,0 +1,57 @@
+//
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: #f8f8f8;
+}
+
+.navbar a {
+  color: white;
+}
+
+.card {
+  box-shadow: 0 0 7px -4px black;
+
+  .card-header {
+    border-bottom: solid 2px #007bff;
+
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.table-hover {
+
+  tbody {
+    tr {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+textarea.form-control {
+  height: 120px;
+}
+
+.item-img {
+  height: auto;
+  max-width: 200px;
+}
+
+.bg-success-light {
+  background-color: #a8f7c5 !important;
+}
+
+tbody tr.bg-success-light {
+
+  &:hover {
+    background-color: #88e7a5 !important;
+  }
+
+  td {
+    border-top: 1px solid #bec2c6;
+  }
+}
